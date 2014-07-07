@@ -41,8 +41,8 @@ Open your **AHconfig.sqf** and down at the bottom find **ALLOWED Actions** part.
 On very top of the list whitelist snap actions add:
 ```c++
 /*  ALLOWED Actions      */ _dayzActions =
-"([
-	s_player_toggleSnap, s_player_toggleSnapSelect,
+[
+	"s_player_toggleSnap","s_player_toggleSnapSelect",
 	// Rest of Infistar code here!
 ```
 Scroll down to the bottom of this array and add this right after `+ s_vehicle_lockunlock` :
